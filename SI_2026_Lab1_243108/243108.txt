@@ -1,0 +1,32 @@
+#prasanje 13 Merge feature-search-books во master
+
+Команди кои се употребени:
+git checkout master
+git merge feature-search-books
+git log --oneline --graph --all
+
+дали спојувањето било fast-forward
+Да, merge беше fast-forward
+
+
+Излезо од командата git log --oneline --graph --all
+* f87f6a8 (HEAD -> master, origin/feature-search-books, feature-search-books) Implement book search
+* ac7e426 (origin/master) Add starter code
+* f42ee91 Initial commit
+
+#prasanje 22 
+Nastana konflikt pri merge i go resiv racno bidejki razlicni poraki bea koristeni vo edna linija 
+za pozajmuvanje na knigata
+
+od git status ova
+
+
+On branch feature-borrow-book Your branch is ahead of 'origin/feature-borrow-book' by 2 commits.
+ (use "git push" to publish your local commits) Untracked files: (use "git add <file>..."
+ to include in what will be committed) 
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+#prasanje 23
+Во овој случај, бидејќи feature-genre-report не имала нови комити по master, merge-от беше 
+fast-forward
